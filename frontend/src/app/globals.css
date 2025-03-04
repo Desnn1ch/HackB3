@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --blue: #20A8EB;
+  --bright: #0CEBE0;
+  --dark: #191919;
+  --active-blue: #006FB3;
+  --blue-opacity: rgba(32, 168, 235, .2);
+  --active-blue-opacity: rgba(0, 111, 179, .2);
+  --bright-opacity: rgba(12, 235, 224, .2);
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+input:focus{
+  outline: none;
+  background-color: transparent;
+}
+
+input:-internal-autofill-selected{
+  background-color: transparent;
+}
